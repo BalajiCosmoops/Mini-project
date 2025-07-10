@@ -11,52 +11,68 @@
     />
   </head>
   <body>
-    <header>
+    <div class="background">
       <nav class="navbar">
         <div class="logo">
-          <img src="/Mini-project/Asset/logo.png.webp" alt="logo picture" />
+          <img src="/Asset/logo.png.webp" alt="logo picture" />
         </div>
-        <div class="nav-link">
-          <ul>
+        <div class="menu">
+          <div class="menu-bar">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Menu</a></li>
+              <li>
+                <a href="#">Blog</a>
+                <ul class="submenu">
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Blog Details</a></li>
+                  <li><a href="#">Element</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="order-btn">
+            <button>Order Online</button>
+          </div>
+        </div>
+        <div class="sidebar" id="sidebar-1">
+          <div class="toggle-bar">
+            <div class="bar" id="bar-1">
+              <span>MENU</span>
+              <i class="fa-solid fa-bars"></i>
+            </div>
+          </div>
+          <ul id="dropdown">
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Menu</a></li>
-            <li><a href="#">Blog</a></li>
+            <li>
+              <a href="#">Blog <i class="fa-solid fa-plus"></i> </a>
+              <ul class="submenu-dd">
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Blog Details</a></li>
+                <li><a href="#">Element</a></li>
+              </ul>
+            </li>
             <li><a href="#">Contact</a></li>
           </ul>
         </div>
-        <div class=" menu">
-          <div class="menu-bar" id="menu-toggle">
-            <span>Menu</span>
-          <i class="fas fa-outdent bar"></i>
-          </div>
-        </div>
-          <div class="sidebar" id="dropdown">
-          <ul>
-            <div class="box">
-              <li><a href="#">Home</a></li>
-            </div>
-            <div class="box">
-              <li><a href="#">About</a></li>
-            </div>
-            <div class="box">
-              <li><a href="#">Menu</a></li>
-            </div>
-            <div class="box">
-              <li><a href="#">Blog</a></li>
-            </div>
-            <div class="box">
-              <li><a href="#">Contact</a></li>
-            </div>
-          </ul>
-        </div>
-        <button class="order-btn">Order Online</button>
       </nav>
-    </header>
-    <main>
+      <!-- Hero Section -->
+       <section class="hero-section">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <span>Discover Your Taste</span>
+          <h1>We believe good food offer great smile</h1>
+          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat is aute irure.</p>
+          <a href="#" class="hero-btn">Reservation</a>
+        </div>
+      </div>
+    </div>
 
-    </main>
-
-     <script src="main.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
